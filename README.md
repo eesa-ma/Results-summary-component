@@ -12,7 +12,7 @@ This is a solution to the [Results summary component challenge on Frontend Mento
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-- [Author](#author)
+
 
 ## Overview
 
@@ -27,11 +27,12 @@ Users should be able to:
 ### Screenshot
 
 ![Preview of Result Summary Component](./assets/images/preview.png)
+![Preview of Result Summary Component](./assets/images/preview1.png)
 
 
 ### Links
 
-- Solution URL: (https://github.com/your-username/your-repo)
+- Solution URL: https://github.com/eesa-ma/Results-summary-component
 - Live Site URL: https://eesa-ma.github.io/Results-summary-component/
 
 ## My process
