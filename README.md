@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add your GitHub repo link here](https://github.com/your-username/your-repo)
-- Live Site URL: [Add live demo link here](https://your-live-site-url.com)
+- Solution URL: (https://github.com/your-username/your-repo)
+- Live Site URL: https://eesa-ma.github.io/Results-summary-component/
 
 ## My process
 
