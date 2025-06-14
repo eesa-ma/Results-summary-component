@@ -22,12 +22,15 @@
 
   </style>
 </head>
-<body class="bg-white ">
-  <div class="flex flex-col h-screen gap-5">
 
-  <div class="bg-linear-[hsl(252,100%,67%),hsl(241,81%,54%)]  w-full h-1/2 rounded-b-3xl flex flex-col items-center justify-center gap-5">
+<body class="bg-white antialiased md:bg-gray-200">
+  <!-- main div -->
+  <div class="bg-white flex flex-col gap-5 md:flex-row md:w-2/4 md:rounded-3xl md:overflow-hidden md:shadow-xl md:mx-auto md:my-20 md:gap-0">
+    <!-- Result part -->
+  <div class="bg-linear-[hsl(252,100%,67%),hsl(241,81%,54%)]  w-full h-1/2 rounded-b-3xl flex flex-col items-center justify-center gap-5 pt-5 pb-5 md:rounded-3xl md:p-29">
     <p class="text-[18px] text-[hsl(221,100%,96%)] opacity-80">Your Result</p>
 
+    <!-- circle with score -->
     <div class="w-28 h-28 flex flex-col justify-center  items-center bg-[radial-gradient(circle_at_top,hsla(256,72%,46%,1),hsla(241,72%,46%,0))]
  rounded-full ">
       <span class="text-4xl font-bold text-white">76</span>
@@ -40,9 +43,11 @@
     </p>
   </div>
 
-  <div class="bg-white w-full h-1/2 ">
-    <div class="flex flex-col gap-5 mx-5 ">
+  <!-- Summary part -->
+  <div class="bg-white w-full h-1/2">
+    <div class="flex flex-col gap-5 mx-5 md:mt-10 ">
       <h2 class="text-lg font-semibold opacity-80">Summary</h2>
+      <!-- Reaction  -->
       <div class=" py-4 px-2 rounded-lg flex justify-around gap-20 bg-[hsl(0,52.90%,86.70%)]">
         <div class="flex gap-2">
           <img src="./assets/images/icon-reaction.svg" alt="Reaction">
@@ -52,6 +57,7 @@
           <span class=" text-lg font-semibold">80</span> <span class="opacity-80">&nbsp;/ 100</span>
         </div>
       </div>
+      <!-- memory -->
       <div class=" py-4 px-2 rounded-lg flex justify-around  gap-20 bg-[hsl(43,33.30%,95.90%)]">
         <div class="flex gap-2">
           <img src="./assets/images/icon-memory.svg" alt="memory">
@@ -61,6 +67,8 @@
           <span class=" text-lg font-semibold">92</span> <span class="opacity-80">&nbsp;/ 100</span>
         </div>
       </div>
+      
+      <!-- Verbal -->
       <div class=" py-4 px-2 rounded-lg flex justify-around  gap-20 bg-[hsl(166,68.00%,90.20%)]">
         <div class="flex gap-2">
            <img src="./assets/images/icon-verbal.svg" alt="icon-verbal">
@@ -70,6 +78,7 @@
           <span class=" text-lg font-semibold">61</span> <span class="opacity-80">&nbsp;/ 100</span>
         </div>
       </div>
+      <!-- Visual -->
       <div class=" py-4 px-2 rounded-lg flex justify-around gap-20 bg-[hsl(234,100.00%,83.30%)]">
         <div class="flex gap-2">
           <img src="./assets/images/icon-visual.svg" alt="visual">
@@ -79,7 +88,7 @@
           <span class=" text-lg font-semibold">73</span> <span class="opacity-80">&nbsp;/ 100</span>
         </div>
       </div>
-      <button class="border border-black bg-[hsl(224,30%,27%)] py-4 px-2 mb-10 rounded-full text-white font-bold">Continue</button>
+      <button class="bg-[hsl(224,30%,27%)] py-4 px-2 mb-10 rounded-full text-white font-bold hover:bg-linear-[hsl(252,100%,67%),hsl(241,81%,54%)]">Continue</button>
     </div>
   </div>
 
